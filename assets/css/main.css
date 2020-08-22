@@ -146,7 +146,6 @@ input, select, textarea {
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
@@ -2751,6 +2750,11 @@ input, select, textarea {
 					margin: 1.25em 0 0 1.25em;
 				}
 
+				.tiles .big {
+					width: calc(60% - 1.25em);
+					margin: 1.25em 1.25em 0 1.25em;
+				}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3309,4 +3313,10 @@ input, select, textarea {
 
 	.inner p {
 		margin-top: 2.5em;
+	}
+
+	.carousel-caption {
+		top: 50%;
+		transform: translateY(-50%);
+		bottom: initial;
 	}
