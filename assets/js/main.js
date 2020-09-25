@@ -1,7 +1,7 @@
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Free for personal and ommercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 (function($) {
@@ -183,3 +183,100 @@
 			});
 
 })(jQuery);
+
+/* Agregados ZAMT */
+
+/* Modal triggers de OBRAS */
+
+$('a[href$="#jbjusto"]').on( "click", function() {
+	$('#jbjusto').modal('show');
+	});
+
+$('a[href$="#tacuari"]').on( "click", function() {
+	$('#tacuari').modal('show');
+	});
+
+$('a[href$="#bufano"]').on( "click", function() {
+	$('#bufano').modal('show');
+	});
+
+$('a[href$="#malabia"]').on( "click", function() {
+$('#malabia').modal('show');
+});
+
+$('a[href$="#3_de_febrero"]').on( "click", function() {
+$('#3_de_febrero').modal('show');
+});
+
+$('a[href$="#rivadavia"]').on( "click", function() {
+$('#rivadavia').modal('show');
+});
+
+$('a[href$="#ampliacion_jbj"]').on( "click", function() {
+$('#ampliacion_jbj').modal('show');
+});
+
+$('a[href$="#bariloche"]').on( "click", function() {
+$('#bariloche').modal('show');
+});
+
+$('a[href$="#latrilla"]').on( "click", function() {
+$('#latrilla').modal('show');
+});
+
+$('a[href$="#reforma_tg"]').on( "click", function() {
+$('#reforma_tg').modal('show');
+});
+
+$('a[href$="#falcon"]').on( "click", function() {
+$('#falcon').modal('show');
+});
+
+$('a[href$="#bonifacio"]').on( "click", function() {
+$('#bonifacio').modal('show');
+});
+
+$('a[href$="#gallo"]').on( "click", function() {
+	$('#gallo').modal('show');
+	});
+
+$('a[href$="#venezuela"]').on( "click", function() {
+	$('#venezuela').modal('show');
+	});
+
+$('a[href$="#amenabar"]').on( "click", function() {
+	$('#amenabar').modal('show');
+	});
+
+$('a[href$="#rivera"]').on( "click", function() {
+	$('#rivera').modal('show');
+	});
+
+$('a[href$="#sucre"]').on( "click", function() {
+	$('#sucre').modal('show');
+	});
+
+$('a[href$="#obligado"]').on( "click", function() {
+	$('#obligado').modal('show');
+	});
+
+$('a[href$="#simon"]').on( "click", function() {
+	$('#simon').modal('show');
+	});
+
+$('a[href$="#florida"]').on( "click", function() {
+	$('#florida').modal('show');
+	});
+
+$('a[href$="#dickman"]').on( "click", function() {
+	$('#dickman').modal('show');
+	});
+
+$('a[href$="#consultorio"]').on( "click", function() {
+	$('#consultorio').modal('show');
+	});
+
+
+
+
+
