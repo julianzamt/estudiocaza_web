@@ -3345,6 +3345,7 @@ input, select, textarea {
 		top: 50%;
 		transform: translateY(-50%);
 		bottom: initial;
+		font-weight: 500;
 	}
 
 
